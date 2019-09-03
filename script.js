@@ -4,6 +4,6 @@ setInterval(function(){
   if (nbDots < 3) {
     document.getElementById('dots').innerHTML += ".";
   } else {
-    document.getElementById('dots').innerHTML = ".";
+    document.getElementById('dots').innerHTML = "";
   }
 }, 1000);
